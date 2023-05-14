@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaConsole", "PizzeriaConsole\PizzeriaConsole.csproj", "{EA6AF705-F07E-4BD1-8E43-F22950FB8990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaLibrary", "PizzeriaLibrary\PizzeriaLibrary.csproj", "{8352391C-5FCF-4E41-AA57-177D90C04C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileWriterLibrary", "FileWriterLibrary\FileWriterLibrary.csproj", "{917DF6E7-CE9C-4578-BFA7-66E50F0EF1EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReaderLibrary", "FileReaderLibrary\FileReaderLibrary.csproj", "{CC850293-FAFD-483A-B6BE-3F253F1A549A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA6AF705-F07E-4BD1-8E43-F22950FB8990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA6AF705-F07E-4BD1-8E43-F22950FB8990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA6AF705-F07E-4BD1-8E43-F22950FB8990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA6AF705-F07E-4BD1-8E43-F22950FB8990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8352391C-5FCF-4E41-AA57-177D90C04C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8352391C-5FCF-4E41-AA57-177D90C04C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8352391C-5FCF-4E41-AA57-177D90C04C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8352391C-5FCF-4E41-AA57-177D90C04C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{917DF6E7-CE9C-4578-BFA7-66E50F0EF1EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917DF6E7-CE9C-4578-BFA7-66E50F0EF1EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917DF6E7-CE9C-4578-BFA7-66E50F0EF1EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917DF6E7-CE9C-4578-BFA7-66E50F0EF1EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC850293-FAFD-483A-B6BE-3F253F1A549A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC850293-FAFD-483A-B6BE-3F253F1A549A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC850293-FAFD-483A-B6BE-3F253F1A549A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC850293-FAFD-483A-B6BE-3F253F1A549A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
