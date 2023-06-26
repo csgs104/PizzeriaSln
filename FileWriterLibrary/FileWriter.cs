@@ -1,15 +1,11 @@
-﻿using System;
-using System.IO;
+﻿namespace FileWriterLibrary;
 
 // 2
-namespace FileWriterLibrary;
-
 public abstract class FileWriter : BaseFile, IFileWriter
 {
 	private string _content = null!;
 
     public string Content { get => _content; set => _content = value; }
-
 
     public FileWriter(string name, string basepath, string content) 
 	: base(name, basepath)
@@ -17,6 +13,5 @@ public abstract class FileWriter : BaseFile, IFileWriter
         _content = content;
     }
 	
-
 	public abstract bool FileWrite();
 }

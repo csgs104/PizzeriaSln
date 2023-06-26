@@ -1,17 +1,11 @@
-using System;
-using System.IO;
-
-using FileWriterLibrary;
-
-// 3
 namespace FileWriterLibrary.FileWriters;
 
+// 3
 public class FileWriterText : FileWriter
 {
     public FileWriterText(string name, string basepath, string content) 
 	: base(name, basepath, content)
     { }
-
 
 	public override bool FileWrite() 
     {

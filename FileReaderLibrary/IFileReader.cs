@@ -1,8 +1,6 @@
-﻿using System;
+﻿namespace FileReaderLibrary;
 
 // 0
-namespace FileReaderLibrary;
-
 public interface IFileReader
 {
     public bool FileRead();

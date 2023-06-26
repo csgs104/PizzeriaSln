@@ -1,9 +1,6 @@
-﻿using System;
-using System.IO;
+﻿namespace FileReaderLibrary;
 
 // 1
-namespace FileReaderLibrary;
-
 public class BaseFile
 {
 	private readonly string _name = null!;
@@ -12,13 +9,11 @@ public class BaseFile
 	public string Name { get => _name; }
 	public string BasePath { get => _basepath; }
 
-
     public BaseFile(string name, string basepath) 
     {
         _name = name;
         _basepath = basepath;
     }
-
 
 	public virtual string FilePath()
 	{
