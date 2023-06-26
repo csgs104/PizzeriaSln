@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace PizzeriaLibrary.Pizzeria;
+﻿namespace PizzeriaLibrary.Pizzeria;
 
 public class PizzaTopping : IPizza
 {
@@ -15,14 +12,12 @@ public class PizzaTopping : IPizza
     public string Topping { get => _topping; }
     public decimal Price { get => _price; }
 
-
     public PizzaTopping(IPizza pizza, string topping, decimal price)
     {
         _pizza = pizza;
         _topping = topping;
         _price = price;
     }
-
 
     public string GetDescription() => $"{Pizza.GetDescription()}{Topping},";
 

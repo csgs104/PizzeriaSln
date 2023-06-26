@@ -1,11 +1,6 @@
-using System;
-
-using Microsoft.Data.SqlClient;
-
-using PizzeriaLibrary.Databases.Abstract;
-
-
 namespace PizzeriaLibrary.Databases.Classes;
+
+using Abstract;
 
 public class PizzeriaDatabase : Database
 {

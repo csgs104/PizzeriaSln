@@ -1,9 +1,4 @@
-﻿using System;
-
-using PizzeriaLibrary.Pizzeria;
-
-
-namespace PizzeriaLibrary.Pizzeria.Toppings;
+﻿namespace PizzeriaLibrary.Pizzeria.Toppings;
 
 public class BackedHam : PizzaTopping
 {

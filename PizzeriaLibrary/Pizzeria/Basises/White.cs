@@ -1,9 +1,4 @@
-﻿using System;
-
-using PizzeriaLibrary.Pizzeria;
-
-
-namespace PizzeriaLibrary.Pizzeria.Basises;
+﻿namespace PizzeriaLibrary.Pizzeria.Basises;
 
 public class White : Basis
 {

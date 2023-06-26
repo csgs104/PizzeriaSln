@@ -1,9 +1,6 @@
-using System;
+namespace PizzeriaLibrary.Databases.Abstract;
 
 using Microsoft.Data.SqlClient;
-
-
-namespace PizzeriaLibrary.Databases.Abstract;
 
 public abstract class Database : IDatabase
 {
@@ -11,12 +8,10 @@ public abstract class Database : IDatabase
 
     public string Connection { get => _connection; }
 
-
     public Database(string connection)
     {
         _connection = connection;
     }
-
 
     public abstract string CreateDataBase();
 

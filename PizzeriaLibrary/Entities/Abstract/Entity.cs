@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace PizzeriaLibrary.Entities.Abstract;
+﻿namespace PizzeriaLibrary.Entities.Abstract;
 
 public abstract class Entity : IEntity
 {
@@ -9,12 +6,10 @@ public abstract class Entity : IEntity
 
     public int Id { get => _id; }
 
-
     public Entity(int id = default)
     {
         _id = id;
     }
-
 
     public override string ToString()
     {

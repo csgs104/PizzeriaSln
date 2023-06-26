@@ -1,9 +1,6 @@
-﻿using System;
+﻿namespace PizzeriaLibrary.Entities.Classes;
 
-using PizzeriaLibrary.Entities.Abstract;
-
-
-namespace PizzeriaLibrary.Entities.Classes;
+using Abstract;
 
 public class Order : Entity
 {
@@ -12,7 +9,6 @@ public class Order : Entity
 
     public string Pizzas { get => _pizzas; }
     public DateTime Date { get => _date; }
-
 
     public Order(int id, string pizzas, DateTime date) 
 	: base(id)
@@ -35,7 +31,6 @@ public class Order : Entity
     public Order(string pizzas)
     : this(pizzas, DateTime.Now)
     { }
-
 
     public override string ToString()
     { 

@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace PizzeriaLibrary.Pizzeria;
+﻿namespace PizzeriaLibrary.Pizzeria;
 
 public abstract class Ingredient
 {
@@ -10,7 +7,6 @@ public abstract class Ingredient
 
     public string Name { get => _name; }
     public decimal Price { get => _price; }
-
 
     public Ingredient(string name, decimal price)
     {

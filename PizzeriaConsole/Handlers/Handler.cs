@@ -1,15 +1,10 @@
-﻿using System;
+﻿namespace PizzeriaConsole.Handlers;
 
 using FileReaderLibrary;
 using FileReaderLibrary.FileReaders;
-
 using FileWriterLibrary;
 using FileWriterLibrary.FileWriters;
-
 using PizzeriaLibrary.Pizzeria;
-
-
-namespace PizzeriaConsole.Handlers;
 
 public class Handler : IHandler
 {
@@ -18,7 +13,6 @@ public class Handler : IHandler
 
     public string OrdersDirectory { get => _ordersDirectory; }
     public string ReceiptsDirectory { get => _receiptsDirectory; }
-
 
     public Handler(string ordersDirectory, string receiptsDirectory)
     {
@@ -31,7 +25,6 @@ public class Handler : IHandler
         _ordersDirectory = DestinationPath("TheOrders");
         _receiptsDirectory = DestinationPath("TheReceipts");
     }
-
 
     public void Handle()
     {
@@ -49,7 +42,6 @@ public class Handler : IHandler
         }
     }
 
-
     private static string DestinationPath(string directory)
     {
         var name = "PizzeriaConsole";
@@ -60,7 +52,6 @@ public class Handler : IHandler
         // ...
         return Path.Combine(root, bs, name, directory);
     }
-
 
     private static List<string> GetFiles(string path)
     {

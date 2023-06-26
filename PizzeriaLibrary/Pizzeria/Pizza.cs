@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace PizzeriaLibrary.Pizzeria;
+﻿namespace PizzeriaLibrary.Pizzeria;
 
 public class Pizza : IPizza
 {
@@ -11,13 +8,11 @@ public class Pizza : IPizza
     public Basis Basis { get => _basis; }
     public Dough Dough { get => _dough; }
 
-
     public Pizza(Basis basis, Dough dought)
     {
         _basis = basis;
         _dough = dought;
     }
-
 
     public string GetDescription() => $"{_basis.Name};{_dough.Name};";
 

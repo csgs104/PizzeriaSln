@@ -1,13 +1,8 @@
-using System;
+namespace PizzeriaConsole.IoC;
 
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-
 using PizzeriaConsole.Handlers;
-
-
-namespace PizzeriaConsole.IoC;
 
 public static class Startup
 {
@@ -26,11 +21,9 @@ public static class Startup
         // add the filepath of appsettings.json to host
         var host = Host.CreateDefaultBuilder().UseContentRoot(basepath);
 
-
         // add the filepath of appsettings.json to host 
         // (specification where prog take the appsetting.json needed)
         // var host = Host.CreateDefaultBuilder();
-
 
         // configure host
         return host.ConfigureServices((context, service)

@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace PizzeriaLibrary.Pizzeria;
+﻿namespace PizzeriaLibrary.Pizzeria;
 
 public abstract class Basis : Ingredient
 {

@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace PizzeriaLibrary.Entities.Abstract;
+﻿namespace PizzeriaLibrary.Entities.Abstract;
 
 public interface IEntity
 {

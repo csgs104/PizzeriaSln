@@ -1,11 +1,8 @@
-﻿using System;
+﻿namespace PizzeriaLibrary.Pizzeria;
 
-using PizzeriaLibrary.Pizzeria.Basises;
-using PizzeriaLibrary.Pizzeria.Doughs;
-using PizzeriaLibrary.Pizzeria.Toppings;
-
-
-namespace PizzeriaLibrary.Pizzeria;
+using Basises;
+using Doughs;
+using Toppings;
 
 public static class PizzaFactory
 {

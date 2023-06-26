@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PizzeriaConsole.Handlers;
+﻿namespace PizzeriaConsole.Handlers;
 
 public interface IHandler
 {

@@ -1,9 +1,6 @@
-using System;
-
-using PizzeriaLibrary.Entities.Abstract;
-
-
 namespace PizzeriaLibrary.Entities.Classes;
+
+using Abstract;
 
 public class Receipt : Entity
 {
@@ -15,7 +12,6 @@ public class Receipt : Entity
 
     // relationships
     public virtual Order Order { get; set; } = null!;
-
 
     public Receipt(int id, int orderId, decimal price) 
 	: base(id)
@@ -30,7 +26,6 @@ public class Receipt : Entity
         _orderId = orderId;
         _price = price;
     }
-
 
     public override string ToString()
     { 
